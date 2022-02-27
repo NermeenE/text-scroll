@@ -1,0 +1,82 @@
+body{
+    margin-top: 70px; /* this is in order to push everything down so the nav bar isnt covering it*/
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6{ /* this is to make all the h's into the font, instead of doing it for each 1*/
+    font-family: Poppins;
+ 
+}
+
+p{
+    font-family: Roboto;/* this is to make all the p's into the font, instead of doing it for each 1*/
+}
+
+.navbar-default{
+    background: #fff;
+    border: 0;
+    font-family: Poppins;
+
+}
+
+.navbar-brand{
+    font-size: 20px;
+    color:#000 !important; /* without having important, the color isnt changing to black, so we added important in order to have it over ride any other colors it had previously */
+    font-weight: bold;
+
+}
+
+#showcase h1{ /* this is for the h1 writing, i dont have to put showcase-right h1 on here instead i put #showcase h1 which is #showcase cover the whole showcase and since theres only one h1 then we dont have to be too specific like saying showcase-right h1{}/*/
+    font-size: 50px;
+    margin-bottom:20px;
+}
+
+#showcase img{
+    width:90%; /* we want it 90% of its container not 100%*/
+    margin-left: 60px;
+}
+
+#showcase .showcase-right{ /* for the writing next to the main img*/
+    margin-top: 90px; /* to push it down*/
+
+}
+
+#testimonial{
+    background: #f1f1f1;
+    padding: 50px 0 30px 0; /* top 50,bottom30*/
+    text-align: center;
+    margin-top: 40px;
+}
+
+#testimonial p{
+    font-size: 35px;
+    font-family: 'Open Sans Condensed', sans-serif;;
+    color:rgb(36, 35, 35);
+}
+
+#testimonial p.customer{
+    font-size: 20px;
+    color: #666;
+}
+
+#info1 .info-right{
+    margin-top: 90px;
+}
+
+#info2{
+    margin: 20px 0 60px 0; /* top 20px, bottom 60px*/
+}
+
+#contact{
+    background: url(../img/image3.png); /* we did the ../ because right now we are in the style.css file which is in the css folder so in order to get out of it we have to do ../ then to go to the img folder, we put ../img then / and the nameof the image, so ../img/image3.png)*/
+    padding: 40px;
+    color: #fff;
+    border-top: #333 7px solid;
+    border-bottom: #333 7px solid;
+    
+}
+
+footer{
+    padding: 30px;
+
+}
